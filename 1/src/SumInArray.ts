@@ -1,5 +1,5 @@
 export const sumInArray = (array: Array<number>, k: number): boolean => {
-    if(array.length < 2) false;
+    if(array.length < 2) return false;
     let pivot = 0;
     while ( pivot < array.length) {
         for(let i = pivot + 1; i < array.length; i++){
