@@ -2,12 +2,12 @@
   "name": "sum-in-array",
   "version": "1.0.0",
   "description": "Given a list of numbers and a number k, return whether any two numbers from the list add up to k.",
-  "main": "SumInArray.js",
+  "main": "dist/SumInArray.js",
   "scripts": {
     "test": "jest",
     "build": "tsc --project tsconfig.build.json"
   },
-  "author": "Daniel Zurita",
+  "author": "ThyDwimmerlaik",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^28.1.6",
