@@ -1,0 +1,18 @@
+{
+  "name": "cons-car-pair",
+  "version": "1.0.0",
+  "description": "Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.",
+  "main": "dist/Cons.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "author": "ThyDwimmerlaik",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
